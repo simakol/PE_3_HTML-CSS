@@ -1,0 +1,106 @@
+/* p {
+  color: red;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-size: 50px;
+  background-color: black;
+} */
+
+div {
+  /*
+  display: block;
+- йому можна задавати розміри (width, height)
+- він займає всю доступну йому ширину (це значить, що інші елементи не можуть стати поряд з ним)
+- йому можна задавати відступи
+  */
+  /* display: none; 
+  - вирізає елемент зі сторінки
+  */
+  /* 
+  display: inline;
+  - не можна задавати розміри (width, height не працюють)
+  - займає стільки місця, скільки потрібно для того щоб показати текст (інші інлайн елементи можуть стати поряд)
+  - не можна задавати відступи
+  */
+  /* 
+  dispay: inline-block;
+- йому можна задавати розміри (width, height)
+- займає стільки місця, скільки потрібно для того щоб показати текст (інші інлайн елементи можуть стати поряд)
+- йому можна задавати відступи
+  */
+
+  /* display: inline-block;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black; */
+}
+/* 
+.green-square {
+  background-color: green;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.blue-square {
+  background-color: blue;
+}
+
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: lime;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid lime;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+/* a {
+  display: inline-block;
+  width: 300px;
+  background-color: grey;
+  padding-top: 50px;
+} */
+
+.film-card {
+  display: inline-block;
+  background-color: black;
+  border: 2px solid gold;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.film-poster {
+  width: 250px;
+  height: 380px;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
+
+.watch-btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: gold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
