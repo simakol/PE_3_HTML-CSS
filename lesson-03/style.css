@@ -1,0 +1,23 @@
+/* ul li {
+  list-style-type: square;
+} */
+
+table,
+tr,
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  padding: 5px;
+  color: white;
+  font-family: sans-serif;
+}
+
+thead,
+tfoot {
+  background-color: green;
+}
+
+tbody {
+  background-color: rgb(192, 189, 71);
+}
