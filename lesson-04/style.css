@@ -1,0 +1,107 @@
+/*
+display - відповідає за поведінку елементу на сторінці і взаємодію цього елементу з іншими
+
+- none - вирізає елемент з потоку і його більше не буде на сторінці
+
+- block - блочний елемент (займає всю ширину яка йому доступна(інші елементи не можуть стати поряд), можна задавати розміри, можна задавати відступи)
+
+- inline - строчний елемент (займає стільки місця, скільки потрібно для відображення тексту(інші елементи можуть стати поряд), не можна задавати розміри, не можна задавати відступи(padding))
+
+- inline-block - строчно-блочний елемент (займає стільки місця, скільки потрібно для відображення тексту(інші елементи можуть стати поряд), можна задавати розміри, можна задавати відступи) 
+
+*/
+
+/*
+відступи:
+- margin: зовнішній відступ між елементами (за межами рамки)
+
+- padding: внутрішній відступ одного елементу (всередині рамки, збільшує розміри елементу)
+*/
+
+/* p {
+  background-color: grey;
+  width: 100px;
+  margin-top: 40px;
+  padding: 50px;
+} */
+
+/* p {
+  display: inline;
+  background-color: grey;
+  width: 100px;
+  margin-right: 50px;
+  padding: 50px;
+} */
+
+/* p {
+  display: inline-block;
+  background-color: grey;
+  width: 100px;
+  margin-right: 50px;
+  padding: 50px;
+} */
+
+/*! ======================== */
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Work+Sans:wght@100;300;600;900&display=swap");
+
+.text {
+  color: coral;
+  font-size: 50px; /* задає розмір тексту */
+  font-weight: 600; /* задає жирність шрифта (від 100 до 900, чим більше - тим жирніше) */
+  font-style: italic; /* стиль тексту - курсив */
+  font-family: "Verdana", sans-serif;
+}
+
+.serif {
+  font-family: serif; /* стандартне начертання, шрифт з засічками(гострі кути на буквах) */
+}
+
+.sans-serif {
+  font-family: sans-serif; /* начертання без засічок на буквах */
+}
+
+.monospace {
+  font-family: monospace; /* задає однаковий розмір усіх букв */
+}
+
+.cursive {
+  font-family: cursive; /* імітує почерк */
+}
+
+.fantasy {
+  font-family: fantasy; /* декоративний шрифт */
+}
+
+.text1 {
+  font-family: "Tilt Prism", cursive;
+  font-size: 50px;
+}
+
+.text2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
+}
+.text3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+.text4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.text5 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #57e599;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 3px solid rgb(226, 69, 155);
+  margin-bottom: 50px;
+  box-shadow: 10px 9px 8px gold;
+  /* 10px-позиція x; 9px - позиція y; 8px - розмиття */
+}
