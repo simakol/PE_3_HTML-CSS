@@ -1,0 +1,156 @@
+a {
+  /* селектор елементу - стилі застосовуються до всіх тегів з такою назвою */
+  color: red;
+  text-decoration: none;
+}
+
+.text {
+  /* селектор класу - стилі застосовуються до всіх тегів, які мають таку саму назву класу */
+  font-size: 30px;
+}
+
+div {
+  padding: 50px;
+  background: linear-gradient(150deg, yellow, blue);
+}
+
+* {
+  /* універсальний селектор - застосовує стилі до абсолютно кожного елементу на сторінці */
+  /* border: 3px solid red;
+  border-radius: 15px; */
+}
+
+ul a {
+  /* селектор нащадка - пишеться через пробіл, в даному прикладі вибирає і стилізує все теги <a>, які знаходяться всередині тегу <ul> (рівень вкладеності не важливий) */
+  color: aqua;
+  font-size: 20px;
+}
+
+div > a {
+  /* дочірній селектор - пишеться через знак більше, в даному прикладі вибирає і стилізує все теги <a>, які є прямими нащадками тегу <div> (означає без додаткових вкладеностей) */
+  color: green;
+}
+
+h1 + p {
+  /* сестринський селектор - пишеться через знак плюс, в даному прикладі вибирає і стилізує перший тег <p> який йде одразу після тегу <h1> */
+  color: blue;
+}
+
+h1 ~ p {
+  /* селектор наступних - пишеться через знак тільда, в даному прикладі вибирає і стилізує всі теги <p> які йдуть після тегу <h1> */
+  color: gold;
+}
+
+.paragraph {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: black;
+  transition: 0.5s;
+}
+
+.paragraph:hover {
+  text-decoration: underline;
+  background-color: lime;
+}
+
+.btn {
+  font-family: sans-serif;
+  color: lime;
+  background-color: black;
+  padding: 10px 20px;
+  border: 2px solid lime;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-size: 30px;
+}
+
+/* :hover - псевдоклас, який описує стилі при наведенні на якийсь елемент */
+.btn:hover {
+  color: black;
+  background-color: lime;
+  border-color: black;
+}
+
+.quote,
+.price {
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+/* ::after(після), ::before(до) - псевдоелементи, за допомогою який можна додавати нові елементи на сторінку через css */
+
+.quote::before,
+.quote::after {
+  content: '"';
+  color: red;
+  font-size: 40px;
+}
+
+.price::before {
+  content: "$";
+  color: green;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+td {
+  transition: 0.5s;
+}
+
+.green:hover {
+  background-color: green;
+  color: green;
+}
+.blue:hover {
+  background-color: blue;
+  color: blue;
+}
+.violet:hover {
+  background-color: violet;
+  color: violet;
+}
+.red:hover {
+  background-color: red;
+  color: red;
+}
+.pink:hover {
+  background-color: pink;
+  color: pink;
+}
+.grey:hover {
+  background-color: grey;
+  color: grey;
+}
+.black:hover {
+  background-color: black;
+  color: black;
+}
+.gold:hover {
+  background-color: gold;
+  color: gold;
+}
+.orange:hover {
+  background-color: orange;
+  color: orange;
+}
+.purple:hover {
+  background-color: purple;
+  color: purple;
+}
+.aqua:hover {
+  background-color: aqua;
+  color: aqua;
+}
+.lime:hover {
+  background-color: lime;
+  color: lime;
+}
