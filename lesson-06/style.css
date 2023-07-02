@@ -1,0 +1,32 @@
+form {
+  width: 200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+form input {
+  width: 90%;
+}
+
+.submit {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.game-form label {
+  flex-direction: row;
+  gap: 0;
+}
+
+.game-form input {
+  width: auto;
+}

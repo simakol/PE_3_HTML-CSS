@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Log in</legend>
+        <label>
+          Enter your first name
+          <input type="text" placeholder="First name" required />
+        </label>
+        <label>
+          Enter your email
+          <input type="email" placeholder="Email" required />
+        </label>
+        <label>
+          Enter your age
+          <input type="number" placeholder="Age" min="1" max="130" required />
+        </label>
+        <label>
+          Enter your password
+          <input type="password" placeholder="Password" required />
+        </label>
+        <input type="submit" value="Send" class="submit" />
+      </fieldset>
+    </form>
+
+    <input type="date" />
+    <input type="range" />
+
+    <form class="game-form">
+      <fieldset>
+        <legend>Вибери свою улюблену гру</legend>
+        <label>
+          <input type="radio" name="game" />
+          Roblox
+        </label>
+        <label>
+          <input type="radio" name="game" />
+          Brawl Stars
+        </label>
+        <label>
+          <input type="radio" name="game" />
+          Minecraft
+        </label>
+        <label>
+          <input type="radio" name="game" />
+          Clash of clans
+        </label>
+        <label>
+          <input type="radio" name="game" />
+          Mortal Combat X
+        </label>
+        <label>
+          <input type="radio" name="game" />
+          Street fighter
+        </label>
+        <label>
+          <input type="radio" name="game" />
+          Doodle jump
+        </label>
+        <input type="submit" value="Вибрати" />
+      </fieldset>
+    </form>
+
+    <form class="game-form">
+      <fieldset>
+        <legend>Виберіть свої улюблені браузери</legend>
+        <label>
+          <input type="checkbox" />
+          Google Chrome
+        </label>
+        <label>
+          <input type="checkbox" />
+          Mozilla Firefox
+        </label>
+        <label>
+          <input type="checkbox" />
+          Mozilla Firefox Developer Edition
+        </label>
+        <label>
+          <input type="checkbox" />
+          Safari
+        </label>
+        <label>
+          <input type="checkbox" />
+          Arc
+        </label>
+        <label>
+          <input type="checkbox" />
+          Sidekick
+        </label>
+        <label>
+          <input type="checkbox" />
+          Microsoft Edge
+        </label>
+        <label>
+          <input type="checkbox" />
+          Internet Explorer
+        </label>
+        <label>
+          <input type="checkbox" />
+          Tor
+        </label>
+        <input type="submit" value="Вибрати" />
+      </fieldset>
+    </form>
+
+    <select>
+      <option>Виберіть браузер, яким ви користуєтесь</option>
+      <option>Google Chrome</option>
+      <option>Mozilla Firefox</option>
+      <option>Mozilla Firefox Developer Edition</option>
+      <option>Safari</option>
+      <option>Arc</option>
+      <option>Sidekick</option>
+      <option>Microsoft Edge</option>
+      <option>Internet Explorer</option>
+      <option>Tor</option>
+    </select>
+  </body>
+</html>
