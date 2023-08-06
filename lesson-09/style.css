@@ -108,7 +108,7 @@
 }
 .field {
   margin: 50px auto;
-  width: 460px;
+  width: 429px;
 }
 
 .square {
@@ -116,6 +116,7 @@
   height: 50px;
   border: 2px solid black;
   display: inline-block;
+  margin: -2px;
 }
 
 .field > .line:nth-child(odd) > .square:nth-child(even) {
