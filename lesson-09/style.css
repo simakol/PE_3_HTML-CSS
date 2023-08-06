@@ -1,0 +1,126 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 160px 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 160px;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: -160px;
+  transition: 1s;
+  position: relative;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.card:hover {
+  transform: translateY(-130px);
+  opacity: 1;
+}
+
+.container > .card:first-child,
+.container > .card:last-child {
+  opacity: 1;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+.orange {
+  background-color: orange;
+}
+.blue {
+  background-color: blue;
+}
+
+.card.opacity,
+.card.none {
+  margin: 0;
+  opacity: 1;
+}
+
+.card.opacity {
+  opacity: 0.2;
+}
+
+.card.none {
+  display: none;
+} */
+/* 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 160px 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 160px;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  display: inline-block;
+  border: 3px solid black;
+} */
+
+/* .container > .square:nth-child(2n){
+    transform: translateY(30px);
+    background-color:red;
+}
+.container > .square:nth-child(2n + 1){
+    transform: translateY(-30px);
+    background-color: blue;
+} */
+
+/* .container > .square:nth-child(even){
+    transform: translateY(30px);
+    background-color:red;
+}
+.container > .square:nth-child(odd){
+    transform: translateY(-30px);
+    background-color: blue;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.field {
+  margin: 50px auto;
+  width: 460px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.field > .line:nth-child(odd) > .square:nth-child(even) {
+  background-color: black;
+}
+.field > .line:nth-child(even) > .square:nth-child(odd) {
+  background-color: black;
+}
