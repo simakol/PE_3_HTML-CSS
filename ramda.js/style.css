@@ -52,3 +52,7 @@ header {
 .navbar-menu > a:first-child {
   border-left: 1px solid #fff;
 }
+
+.navbar-menu > a:not(:first-child) {
+  margin-left: -3.5px;
+}
